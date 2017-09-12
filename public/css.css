@@ -1,0 +1,149 @@
+<style type="text/css">body{
+    margin: 20px;
+    font-family: verdana;
+}
+
+.hide {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-container {
+    width: 984px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+ul {
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+li span {
+    vertical-align: top;
+}
+
+.mtop0 {
+  margin-top: 0;
+}
+
+.mtop20 {
+    margin-top: 20px;
+}
+
+.mtop40 {
+    margin-top: 40px;
+}
+
+.main-tabs {
+    border-bottom: solid 1px #555;
+}
+
+.main-tab {
+    display: inline-block;
+    padding: 10px 16px;
+    border-left: solid 1px #555;
+    border-top: solid 1px #555;
+    border-right: solid 1px #555;
+    font-size: 1.4rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    background: #eee;
+}
+
+.main-tab.active {
+    background: #006699;
+    color: #fff;
+}
+
+.tab.active {
+    background: #006699;
+    color: #fff;
+}
+
+.tabs {
+    width: 100%;
+    list-style: none;
+    position: relative;
+    padding-left: 0;
+}
+.tabs li {
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+input[type="radio"] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+label {
+    display: block;
+    padding: 5px;
+    border: solid 1px #006699;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+}
+.tab-content{
+    z-index: 2;
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    font-size: 1rem;
+    position: absolute;
+    left: 0;
+}
+
+  [id^="tab"]:checked + label {
+      background: #006699;
+      color: #fff;
+  }
+[id^="tab"]:checked ~ [id^="tab-content"] {
+    display: block;
+}
+</style><style>.box1[_ngcontent-tfa-1] {
+    border: solid 1px #006699;
+    padding: 20px;
+    background: #f3f3f3;
+    border-radius: 5px;
+}
+
+.todos[_ngcontent-tfa-1]   input.textfield[_ngcontent-tfa-1] {
+    width: 480px;
+    height: 36px;
+    margin-right: 20px;
+    font-size: 1.4em;
+    vertical-align: top;
+}
+
+.todos[_ngcontent-tfa-1]   input.checkbox[_ngcontent-tfa-1] {
+    width: 20px;
+    height: 20px;
+}
+
+.todos[_ngcontent-tfa-1]   .checked[_ngcontent-tfa-1] {
+    text-decoration: line-through;
+}
+
+.todos[_ngcontent-tfa-1]   button[_ngcontent-tfa-1] {
+    height: 36px;
+    font-size: 1.1em;
+    vertical-align: top;
+    border: solid 1px #999;
+    border-radius: 2px;
+}
+
+.todos[_ngcontent-tfa-1]   .delete-icon[_ngcontent-tfa-1] {
+    diplay: inline-block;
+    cursor: pointer;
+}</style>
